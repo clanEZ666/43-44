@@ -35,7 +35,6 @@ public class ArrayANDLinkedList {
         long endAdd = System.currentTimeMillis();
         System.out.println("Время добавления " + elementCount + " элементов: " + (endAdd - startAdd) + " мс");
 
-        // Случайный доступ
         System.out.println("Случайный доступ...");
         long startAccess = System.currentTimeMillis();
         for (int i = 0; i < randomAccessCount; i++) {
