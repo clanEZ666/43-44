@@ -43,5 +43,6 @@ public class ArrayANDLinkedList {
         }
         long endAccess = System.currentTimeMillis();
         System.out.println("Время случайного доступа " + randomAccessCount + " раз: " + (endAccess - startAccess) + " мс");
+
     }
 }
