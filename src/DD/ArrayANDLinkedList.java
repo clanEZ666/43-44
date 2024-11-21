@@ -19,6 +19,7 @@ public class ArrayANDLinkedList {
         testListPerformance(linkedList, elementCount, randomAccessCount);
     }
 
+
     public static void addElement(ArrayList<String> list, String element) {
         list.add(element);
         System.out.println("Добавлен элемент: " + element);
